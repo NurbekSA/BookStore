@@ -1,0 +1,9 @@
+button{
+    border: none; /* удаление границ кнопки */
+    margin-left: 30px;
+    background: none;
+}
+.box-1{
+    display: flex;
+    padding-left: 2%;
+}

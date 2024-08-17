@@ -1,0 +1,78 @@
+<div class="body">
+    <div class="box-2">
+        <div class="box-2-1-span">
+            <span>Дабро пажаловать</span>
+        </div>
+        
+        <div class="box-2-1-1">
+            <div class = "box-2-1-1-1">
+                <div class = "box-2-1-1-1-1">
+                    <label for="inname">Имя</label>
+                </div>                
+                <div class = "box-2-1-1-1-2">
+                    <img src="/img/log.png" alt="">
+                    <input id="inname" type="text" class="box-2-input" [(ngModel)] = "name">
+                </div>                
+            </div>
+        </div>
+
+        <div class="box-2-1-1">
+            <div class = "box-2-1-1-1">
+                <div class = "box-2-1-1-1-1">
+                    <label for="inmail">Почта</label>
+                </div>                
+                <div class = "box-2-1-1-1-2">
+                    <img src="/img/log.png" alt="">
+                    <input id ="inmail" type="text" class="box-2-input" [(ngModel)] = "mail">
+                </div>                
+            </div>
+        </div><div class="box-2-1-1">
+            <div class = "box-2-1-1-1">
+                <div class = "box-2-1-1-1-1">
+                    <label for="inlogin">Логин</label>
+                </div>                
+                <div class = "box-2-1-1-1-2">
+                    <img src="/img/log.png" alt="">
+                    <input id="inlogin" type="text" class="box-2-input" [(ngModel)] = "login">
+                </div>                
+            </div>
+        </div><div class="box-2-1-1">
+            <div class = "box-2-1-1-1">
+                <div class = "box-2-1-1-1-1">
+                    <label for="inpass1">Пароль</label>
+                </div>                
+                <div class = "box-2-1-1-1-2">
+                    <img src="/img/log.png" alt="">
+                    <input type="inpass1" class="box-2-input" [(ngModel)] = "pass1">
+                </div>                
+            </div>
+        </div><div class="box-2-1-1">
+            <div class = "box-2-1-1-1">
+                <div class = "box-2-1-1-1-1">
+                    <label for="inpass2">Пароль</label>
+                </div>                
+                <div class = "box-2-1-1-1-2">
+                    <img src="/img/log.png" alt="">
+                    <input id="inpass2" type="text" class="box-2-input" [(ngModel)] = "pass2">
+                </div>                
+            </div>
+        </div>
+        <div class="button" (click)="sendEmail()">
+            <button>отправить код на почту</button>
+        </div>
+        <div class="box-2-1-1">
+            <div class = "box-2-1-1-1">
+                <div class = "box-2-1-1-1-1">
+                    <label for="inkod">код</label>
+                </div>                
+                <div class = "box-2-1-1-1-2">
+                    <img src="/img/log.png" alt="">
+                    <input id="inkod" type="text" class="box-2-input" [(ngModel)] = "kod">
+                </div>                
+            </div>
+        </div>    
+        <div class="button" (click)="enter()">
+            <button>Войти</button>
+        </div>    
+    </div>
+</div>

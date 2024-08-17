@@ -1,0 +1,30 @@
+@* @model ServerApp.Models.Book
+@{
+ ViewData["Title"] = "Icons";
+ Layout = "_Layout";
+}
+    <div class="box-1">
+        <div class="box-1-1">
+            @{string[] mass = {"/img/f1a3033d9aff3b789705c575714c9def.png", "/img/TKM.jpg", "/img/1984.jpg","/img/Animal_Farm_by_George_AF.webp","/img/hobbit.jpg", "/img/fr.jpg","/img/APG.jpeg","/img/dune.jpg","/img/dc.pg.jpg","/img/cr.png"}; }
+            @{
+
+                <div class="box-2">
+                    <img src="@mass[(int)ViewBag.In-1]" alt="интернетке косылыныз">
+                </div>
+
+                <a asp-action="Index" class="btn btn-secondary">back</a>
+            }
+        </div>
+        <div class="box-1-2">
+            <h3>name :@Model.Name</h3>
+            <h5>Price :@Model.Price</h5>
+            <h4>Category :@Model.Category</h4>
+            <h4>Description :@Model.Description</h4>
+            
+            
+
+
+        </div>
+    
+    </div>
+ *@

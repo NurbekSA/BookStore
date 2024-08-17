@@ -1,0 +1,22 @@
+<div class="body">
+    <div class="box-2">
+        <div class="box-2-1-span">
+            <span>Дабро пажаловать</span>
+        </div>
+        
+        <div class="box-2-1-1">
+            <img src="/img/log.png" alt="">
+            <input type="text" class="box-2-input "[(ngModel)]="login">
+        </div>
+
+        <div class="box-2-1-2">
+            <img src="/img/pas.png" alt="">
+            <input type="text" class="box-2-input" [(ngModel)]="pass">
+        </div>
+        <div class="box-2-1-button">
+            <button class="box-1-button" (click)="Zapros()">Вход</button>
+            <button class="box-1-button2" [routerLink]="['/Registration']">регестрация</button>
+        </div>
+       
+    </div>
+</div>

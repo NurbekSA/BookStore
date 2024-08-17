@@ -1,0 +1,126 @@
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+body{
+    background-color: #f8f7f5;
+}
+.box-1{
+    display:flex;
+
+}
+.box-1-1{
+    display: flex;
+}
+.box-1-1 img{
+    height:85px;
+    width: auto;
+}
+.box-1-2{
+    display: flex;
+    align-items: center; 
+    margin-left: 15px;
+    width: 10%;
+    
+} 
+.box-1-3{
+    margin-left: 0px;
+}
+.box-1-3-buuton{
+    height: 31px;
+    
+    background-image: url("./img/poisck2.png");
+    background-repeat: no-repeat; /* запрет повтора фонового изображения */
+    background-size: cover; /* установка размера фонового изображения */
+    padding: 10px 20px; /* задание отступов для кнопки */
+    color: #ffffff; /* цвет текста на кнопке */
+    border: none; /* удаление границ кнопки */
+
+}
+.button{
+    font-weight: 900;
+    font-size: 19px;
+
+    display: flex;
+    align-items: center;
+}
+.buutons{
+    border: none; /* удаление границ кнопки */
+    margin-left: 30px;
+    background: none;
+}
+.box-1-4{
+    margin-left: 500px ;
+}
+.box-1-6-buuton{
+    width: 150px;
+}
+.box-1-8-buuton{
+    height: 45px;
+    background-image: url("./img/login.jpg");
+    background-repeat: no-repeat; /* запрет повтора фонового изображения */
+    background-size: cover; /* установка размера фонового изображения */
+    padding: 10px 20px; /* задание отступов для кнопки */
+    color: #ffffff; /* цвет текста на кнопке */
+    border: none; /* удаление границ кнопки */
+}
+
+
+.box-2{
+    display : grid;
+    width: 100%;
+    padding: 50px;
+    grid-template-columns:  25% 25% 25% 25%;
+}
+.box-2-1{
+    margin: 20px;
+    padding: 20px;
+    /* border: 1px solid #4d4747; */
+    /* box-shadow: 0px 0px 15px 1px ; */
+}
+.box-2-1-img img{
+    height: 350px;
+    width: 100%;
+}
+.box-2-1-img img:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s;
+}
+
+.box-2-1-1{
+    display:block;
+    text-align: center;
+}
+.box-2-1-1-span{
+    font-size: 25px;
+}
